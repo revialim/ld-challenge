@@ -1,0 +1,12 @@
+- post individual votes
+
+POST https://something.com/api/v1/voting/vote< URL to vote for >
+vote=like or vote=dislike
+
+- get the accumulated votes for a URL
+
+GET https://something.com/api/v1/voting/votesList?type=allvotes
+
+- get a list of URLs sorted by voting
+
+GET https://something.com/api/v1/voting/votesList?type=sorted
